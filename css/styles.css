@@ -12,13 +12,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: white;
     background-color: var(--primary);
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 nav div{
@@ -50,4 +51,32 @@ nav img{
 
 .logo-color-2{
     color: var(--letters-secondary);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--primary);
+    padding: 20px 20px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+footer li + li {
+    margin-top: 12px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
