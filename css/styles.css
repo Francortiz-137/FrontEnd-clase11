@@ -59,11 +59,11 @@ nav img{
     height: 80px;
 }
 
-.logo-color-1{
+.logo-color-2{
     color: var(--letters);
 }
 
-.logo-color-2{
+.logo-color-1{
     color: var(--letters-secondary);
 }
 
