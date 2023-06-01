@@ -34,9 +34,11 @@ nav{
     padding: 20px 20px;
 }
 
-nav div{
+nav a{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
 
 nav ul{
@@ -149,8 +151,10 @@ footer li + li {
     margin-top: 12px;
 }
 
-footer div{
+footer a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
